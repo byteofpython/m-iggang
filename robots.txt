@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin.html
+Disallow: /admin.js
+Disallow: /?page=admin
+Disallow: /#admin-page
+
+# Allow all other content
+Allow: / 

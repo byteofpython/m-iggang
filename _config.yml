@@ -1,0 +1,8 @@
+theme: jekyll-theme-minimal
+title: Confirm Humanity
+description: A publishing platform for writing, visual art, and internet culture research
+baseurl: ""
+url: ""
+exclude:
+  - admin.js
+  - generate-password-hash.html 

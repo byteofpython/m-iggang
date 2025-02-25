@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>müßiggang revisited | On the worth of wandering in a world of algorithms</title>
+    <meta name="description" content="müßiggang revisited explores the worth of wandering in a world of algorithms through writing, research, and critical analysis.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Humanity Verification Overlay has been removed -->
+
+    <div id="loading-overlay" class="hidden">
+        <div id="loading-content">
+            <div id="navigation-info">Loading müßiggang revisited</div>
+            <div id="loading-text">Processing page data:</div>
+            <div id="hash-lines">
+                <div class="hash-line">contentDigest: 8f7e9b2c4a</div>
+                <div class="hash-line">pageDataHash: 3d7f6e5a2b</div>
+                <div class="hash-line">routeId: 9c8b7a6d5e</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <header>
+            <div class="header-container">
+                <div class="site-title">
+                    <h1>müßiggang revisited</h1>
+                    <p class="subtitle">On the worth of wandering in a world of algorithms</p>
+                </div>
+                <nav class="main-nav">
+                    <a href="#" class="nav-link" data-page="about">About</a>
+                </nav>
+                <!-- Admin navigation removed for GitHub Pages -->
+            </div>
+        </header>
+
+        <main id="main-content">
+            <!-- Default content: Posts page -->
+            <section id="posts-page">
+                <div class="tag-filters">
+                    <button class="tag-filter active" data-tag="all" onclick="filterByTag('all')">All</button>
+                    <button class="tag-filter" data-tag="category1" onclick="filterByTag('category1')">Category 1</button>
+                    <button class="tag-filter" data-tag="category2" onclick="filterByTag('category2')">Category 2</button>
+                    <button class="tag-filter" data-tag="category3" onclick="filterByTag('category3')">Category 3</button>
+                    <button class="tag-filter" data-tag="category4" onclick="filterByTag('category4')">Category 4</button>
+                </div>
+                
+                <div id="posts-container">
+                    <!-- Posts will be loaded dynamically from posts.json -->
+                    <div class="loading-posts">Loading posts...</div>
+                </div>
+            </section>
+
+            <!-- About page content -->
+            <section id="about-page" style="display: none;">
+                <h2 class="post-title">About</h2>
+                
+                <div class="post-content">
+                    <p>müßiggang revisited is a platform exploring the tension between serendipity and control in the digital age. The German term "müßiggang" refers to idleness or leisure that allows for contemplation and discovery.</p>
+                    
+                    <p>Through essays, research, and critical analysis, we examine how algorithmic systems shape our experiences online and how we might reclaim spaces for chance encounters and unexpected discoveries.</p>
+                    
+                    <div class="contact-info">
+                        <p>Contact <a href="mailto:example@example.com" class="content-link">&lt;example@example.com&gt;</a></p>
+                        <p>Social <a href="#" class="content-link">&lt;@example&gt;</a></p>
+                    </div>
+                </div>
+                
+                <a href="#" class="return-link" data-page="posts">Return to Index</a>
+            </section>
+            
+            <!-- Admin page section removed for GitHub Pages -->
+        </main>
+    </div>
+
+    <!-- Post pages will be dynamically created by JavaScript -->
+    
+    <script src="script.js"></script>
+    <!-- Admin script removed for GitHub Pages -->
+</body>
+</html>
